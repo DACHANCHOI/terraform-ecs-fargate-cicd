@@ -1,0 +1,13 @@
+[
+  {
+    "name": "demo",
+    "image": "{aws_account_id}.dkr.ecr.ap-northeast-2.amazonaws.com/dev-pipeline-demo:1",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 80
+      }
+    ]   
+  }
+]
