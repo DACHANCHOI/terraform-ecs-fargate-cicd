@@ -53,7 +53,7 @@ cpl_name                         = "codepipeline"
 # suorce_provider                = "CodeStarSourceConnection"
 GitHubFullRepositoryId           = "DACHANCHOI/test"
 GitHubBranchName                 = "main"
-ConnectionArn                    = "arn:aws:codestar-connections:ap-northeast-2:014842949473:connection/c36eec86-c7b6-4896-8115-5010f0497c9d"
+ConnectionArn                    = "arn:aws:codestar-connections:ap-northeast-2:${aws_account_id}:connection/c36eec86-c7b6-4896-8115-5010f0497c9d"
 # CodeCommit
 suorce_provider                  = "CodeCommit"
 CodeCommitRepositoryName         = "ap-dev-ecs-demo"
