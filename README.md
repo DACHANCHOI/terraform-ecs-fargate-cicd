@@ -30,6 +30,3 @@ Terraform 코드로 통한 AWS ECS & Code Series 프로비저닝
 1. [**VPC**](https://github.com/cshift/ecs-ci-cd-pipeline/tree/main/vpc) 
 2. [**ECS**](https://github.com/cshift/ecs-ci-cd-pipeline/tree/main/ecs)(ECS Cluster, ECS Task Definition, ECS Service, ALB)
 3. [**AWS-CICD/PIPELINE**](https://github.com/cshift/ecs-ci-cd-pipeline/tree/main/aws-cicd-pipeline)(Codebuild, CodeDeploy, CodePipeline, CodeStar, CodeCommit)
-4. CodeBuild (단일 서비스)
-5. CodeDeploy (단일 서비스)
-6. CodePipeline (단일 서비스)
